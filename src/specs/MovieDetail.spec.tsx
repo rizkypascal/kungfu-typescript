@@ -1,8 +1,8 @@
 import Enzyme, { shallow } from 'enzyme';
-import MoviePreview from '../components/MoviePreview';
+import MoviePreview from '../components/molecules/MoviePreview';
 import Adapter from 'enzyme-adapter-react-16';
-import MoviePoster from '../components/MoviePoster';
-import MovieDetail from '../components/MovieDetail';
+import MoviePoster from '../components/atoms/MoviePoster';
+import MovieDetail from '../components/atoms/MovieDetail';
 
 Enzyme.configure({adapter: new Adapter()});
 

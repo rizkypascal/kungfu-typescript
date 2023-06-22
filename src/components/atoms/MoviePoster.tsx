@@ -1,13 +1,13 @@
 import React, { FC, useState } from "react";
 
 type MoviePosterProps  = {
-    poster?: string
+    poster: string
 }
 
 const MoviePoster: FC<MoviePosterProps> = ({poster}) => {
 
     return (
-        <img src={poster}></img>
+        <img src={poster} alt="Poster Placeholder"></img>
     );
 }
 

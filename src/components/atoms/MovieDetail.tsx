@@ -1,5 +1,5 @@
 import React, { FC, useState } from "react";
-import { MoviePreviewProps } from "./MoviePreview";
+import { MoviePreviewProps } from "../molecules/MoviePreview";
 
 const MovieDetail: FC<MoviePreviewProps> = ({movieData}) => {
 

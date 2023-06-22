@@ -1,6 +1,6 @@
-import React, { FC, useState } from "react";
-import MoviePoster from "./MoviePoster";
-import MovieDetail from "./MovieDetail";
+import React, { FC } from "react";
+import MoviePoster from "../atoms/MoviePoster";
+import MovieDetail from "../atoms/MovieDetail";
 
 export type MoviePreviewProps  = {
     movieData: {
